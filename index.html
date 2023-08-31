@@ -1,78 +1,245 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Antonia Luciana Pires</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
   <script>
-    function toggleTheme() {
-      const body = document.body;
-      const header = document.getElementById('header');
-      const menuItems = document.querySelectorAll('.menu-item');
-      body.classList.toggle('dark');
-      header.classList.toggle('dark-header');
-      menuItems.forEach(item => item.classList.toggle('dark-menu-item'));
-    }
+    (function(d, w, c) {
+        w.ChatraID = 'zFty5vFXGW3dFfHEm';
+        var s = d.createElement('script');
+        w[c] = w[c] || function() {
+            (w[c].q = w[c].q || []).push(arguments);
+        };
+        s.async = true;
+        s.src = 'https://call.chatra.io/chatra.js';
+        if (d.head) d.head.appendChild(s);
+    })(document, window, 'Chatra');
+</script>
+  <head>
+    <meta charset="UTF-8">
+    <title>Antonia Luciana Pires - Desenvolvedora de Software no Brasil</title>
+    <meta name="description"
+      content="Antonia Luciana Pires, desenvolvedora de software especializada em front-end e back-end, oferece uma variedade de serviços, incluindo desenvolvimento de sites, lojas virtuais, APIs e consultoria em tecnologia.">
+    <meta name="keywords"
+      content="Antonia Luciana Pires, Desenvolvedora de Software, Front-end, Back-end, Desenvolvimento de Sites, Lojas Virtuais, APIs, Consultoria em Tecnologia, Brasil">
+    <meta name="author" content="Antonia Luciana Pires">
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
 
-    function toggleMenu() {
-      const menu = document.getElementById('mobile-menu');
-      menu.classList.toggle('hidden');
-    }
-  </script>
-  <style>
-    .dark {
-      background-color: #1a202c;
-      color: #a0aec0;
-    }
-
-    .dark-header {
-      background-color: #2d3748;
-      color: #edf2f7;
-    }
-
-    .dark-menu-item {
-      color: #ffffff;
-    }
-  </style>
-</head>
-
-<body>
-  <header id="header" class="bg-gray-100 dark:bg-gray-800">
-    <div class="container mx-auto flex items-center justify-between p-4">
-      <div class="w-12 h-12">
-        <img src="./assets/img/me.jpg" alt="Foto do perfil" class="rounded-full">
-      </div>
-      <div class="md:hidden">
-        <button onclick="toggleMenu()" class="flex items-center px-3 py-2 border rounded">
-          <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-            <title>Menu</title>
-            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-          </svg>
-        </button>
-      </div>
-      <nav class="hidden md:flex space-x-4">
-        <a href="#sobre" class="text-gray-600 dark:text-gray-300 hover:text-blue-500 menu-item">Sobre</a>
-        <a href="#artigos" class="text-gray-600 dark:text-gray-300 hover:text-blue-500 menu-item">Artigos</a>
-        <a href="#projetos" class="text-gray-600 dark:text-gray-300 hover:text-blue-500 menu-item">Projetos</a>
-        <a href="#servicos" class="text-gray-600 dark:text-gray-300 hover:text-blue-500 menu-item">Serviços</a>
-      </nav>
-      <nav id="mobile-menu" class="flex flex-row space-x-2 hidden md:hidden">
-        <a href="#sobre" class="text-gray-600 dark:text-gray-300 hover:text-blue-500 menu-item">Sobre</a>
-        <a href="#artigos" class="text-gray-600 dark:text-gray-300 hover:text-blue-500 menu-item">Artigos</a>
-        <a href="#projetos" class="text-gray-600 dark:text-gray-300 hover:text-blue-500 menu-item">Projetos</a>
-        <a href="#servicos" class="text-gray-600 dark:text-gray-300 hover:text-blue-500 menu-item">Serviços</a>
-      </nav>
-      <div class="flex space-x-2">
-        <button onclick="toggleTheme()" class="bg-white text-gray-600 rounded-full p-2">
-          <span class="dark:hidden"><i class="fas fa-sun"></i></span>
-          <span class="hidden dark:inline"><i class="fas fa-moon"></i></span>
-        </button>
-      </div>
+  <body>
+    <div class="scroll-button">
+      <a href="#home"><i class="fas fa-arrow-up"></i></a>
     </div>
-  </header>
-</body>
+    <nav>
+      <div class="navbar">
+        <div class="logo"><a href="#home">&lt;alps/&gt;</a></div>
+        <ul class="menu">
+          <li><a href="#home">Início</a></li>
+          <li><a href="#about">Sobre mim</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#services">Serviços</a></li>
+          <li><a href="https://antonialucianapires.com/" target="_blank">Blog</a></li>
+          <li><a href="#contact">Contato</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+        </ul>
+        <div class="media-icons">
+          <a href="https://www.linkedin.com/in/antonialucianapires/"
+            target="_blank" rel="noopener noreferrer"><i
+              class="fab fa-linkedin-in"></i></a>
+          <a href="https://antonialucianapires.com/" target="_blank"
+            rel="noopener noreferrer"><i
+              class="fab fa-wordpress"></i></a>
+          <a href="https://github.com/antonialucianapires" target="_blank"
+            rel="noopener noreferrer"><i
+              class="fab fa-github"></i></a>
+        </div>
+      </div>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="text">
+          <div class="text-one">Olá,</div>
+          <div class="text-two">Sou Antonia Luciana Pires</div>
+          <div class="text-three">Engenheira / Desenvolvedora de Software</div>
+          <div class="text-four">no Brasil</div>
+        </div>
+        <div class="button">
+          <button
+            onclick="window.location.href='https://encurtador.com.br/vwFJ4'">Fale
+            comigo</button>
+        </div>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title"><span>Sobre mim</span></div>
+        <div class="about-details">
+          <div class="left">
+            <img
+              src="https://media.licdn.com/dms/image/D4D03AQH6quGpmxQ-9g/profile-displayphoto-shrink_400_400/0/1686088355810?e=1698883200&v=beta&t=dfrZxQ_SqXN1IsQcxCjkt9YL-rDcdZl1rXKvE9kAgOg"
+              alt />
+          </div>
+          <div class="right">
+            <div class="topic">Apaixonada por tecnologia e sempre em busca de
+              novos desafios.</div>
+            <p>
+              Olá! Sou uma desenvolvedora de software especializada em
+              desenvolvimento <strong>front-end</strong> e
+              <strong>back-end</strong>. Com uma base sólida em diversas
+              tecnologias, estou preparada para criar
+              <strong>soluções inovadoras</strong> que atendam a necessidades
+              complexas.
+            </p>
+            <p>Acredito que a chave para o sucesso em qualquer projeto é uma
+              <strong>comunicação clara</strong> e
+              <strong>transparente</strong>, combinada com uma execução técnica
+              de qualidade. Meu objetivo é sempre criar
+              soluções que não apenas atenda às expectativas práticas, mas que
+              <strong>agreguem valor</strong> real para
+              clientes.
+            </p>
+            <div class="button">
+              <button
+                onclick="window.location.href='https://www.linkedin.com/in/antonialucianapires/'">Download
+                CV</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="skills" id="skills">
+      <div class="content">
+        <div class="title"><span>Habilidades</span></div>
+        <div class="skills-details">
+          <div class="text">
+            <div class="topic">Tecnologias e Ferramentas</div>
+            <div class="tech-icons">
+              <span class="icon"><i class="fab fa-html5"></i> HTML</span>
+              <span class="icon"><i class="fab fa-css3-alt"></i> CSS</span>
+              <span class="icon"><i class="fab fa-js"></i> JavaScript</span>
+              <span class="icon"><i class="fab fa-bootstrap"></i> Bootstrap</span>
+              <span class="icon"><i class="fab fa-react"></i> ReactJS</span>
+              <span class="icon"><i class="fab fa-node-js"></i> NodeJS</span>
+              <span class="icon"><i class="fab fa-java"></i> Java</span>
+              <span class="icon"><i class="fas fa-leaf"></i> Spring</span>
+              <span class="icon"><i class="fas fa-database"></i> MySQL</span>
+              <span class="icon"><i class="fas fa-server"></i> SQLServer</span>
+              <span class="icon"><i class="fas fa-project-diagram"></i> DynamoDB</span>
+              <span class="icon"><i class="fas fa-exchange-alt"></i> Kafka</span>
+              <span class="icon"><i class="fab fa-aws"></i> AWS</span>
+              <span class="icon"><i class="fas fa-cube"></i> Terraform</span>
+              <span class="icon"><i class="fab fa-docker"></i> Docker</span>
+              <span class="icon"><i class="fab fa-git"></i> Git</span>
+              <span class="icon"><i class="fab fa-github"></i> GitHub</span>
+              <span class="icon"><i class="fas fa-search"></i> Splunk</span>
+            </div>
+          </div>
+          <div class="boxes">
+            <ul>
+              <li><strong> Front-end e Back-end:</strong> Sou versátil e posso
+                trabalhar em ambas as extremidades do
+                espectro de desenvolvimento, garantindo uma experiência de
+                usuário fluida e uma lógica de negócios sólida.
+              </li>
+              <li><strong>Tecnologias e Frameworks:</strong> Tenho experiência
+                prática com Java, Spring, e uma variedade
+                de bancos de dados, tanto relacionais quanto não relacionais.</li>
+              <li><strong>Serviços em Nuvem: </strong>Estou familiarizada com
+                serviços AWS, permitindo-me criar soluções
+                escaláveis e de alta disponibilidade.</li>
+              <li><strong>Monitoramento e Análise: </strong>Utilizo ferramentas
+                como Splunk para garantir o desempenho e a
+                segurança das aplicações que desenvolvo.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services" id="services">
+      <div class="content">
+        <div class="title"><span>Serviços</span></div>
+        <div class="boxes">
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <div class="topic">Desenvolvimento de Websites Personalizados</div>
+            <p>Criação de websites para pequenas empresas, profissionais
+              autônomos ou eventos especiais.</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-cloud"></i>
+            </div>
+            <div class="topic">Desenvolvimento de API</div>
+            <p>Desenvolvimento de APIs RESTful ou GraphQL para integração de
+              sistemas e aplicações.</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-tools"></i>
+            </div>
+            <div class="topic">Manutenção e Suporte Técnico</div>
+            <p>Oferecer planos de manutenção para manter websites e aplicações
+              atualizados, seguros e funcionando sem
+              problemas.</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-code-branch"></i>
+            </div>
+            <div class="topic">Refatoração e Atualização</div>
+            <p>Atualização e otimização de código para melhor desempenho,
+              segurança e manutenibilidade.</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="topic">Soluções para Educação Online</div>
+            <p>Desenvolvimento de plataformas de ensino a distância, quizzes e
+              outros recursos educacionais online.</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-robot"></i>
+            </div>
+            <div class="topic">Automatização de Tarefas de Negócios</div>
+            <p>Criar scripts ou aplicações para automatizar tarefas repetitivas,
+              como geração de relatórios, agendamento
+              de compromissos, ou atualizações de inventário.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="content">
+        <div class="title"><span>Contate-me</span></div>
+        <div class="text">
+          <div class="topic">Tem Algum Projeto em Mente?</div>
+          <p>Se você tem uma ideia ou projeto que gostaria de discutir, estou
+            aqui para ajudar. Vamos transformar sua
+            visão em realidade!</p>
+          <div class="button">
+            <button>Me chama no chat!</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="text">
+        <span>Created By <a href="#">CodingLab</a> | &#169; 2021 All Rights
+          Reserved</span>
+      </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+  </body>
 
 </html>
