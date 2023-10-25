@@ -71,7 +71,7 @@
         </div>
         <div class="button">
           <button
-            onclick="window.location.href='https://encurtador.com.br/vwFJ4'">Fale
+          onclick="openChatra()">Fale
             comigo</button>
         </div>
       </div>
@@ -223,7 +223,7 @@
             aqui para ajudar. Vamos transformar sua
             visão em realidade!</p>
           <div class="button">
-            <button>Me chama no chat!</button>
+            <button onclick="openChatra()">Me chama no chat!</button>
           </div>
         </div>
       </div>
@@ -236,6 +236,13 @@
     </footer>
 
     <script src="assets/js/script.js"></script>
+    <script>
+
+      function openChatra() {
+        Chatra('openChat', true);
+      }
+
+    </script>
   </body>
 
 </html>
